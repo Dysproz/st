@@ -6,6 +6,11 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "Monospace:pixelsize=14:antialias=true:autohint=true";
+/* Spare fonts */
+static char *font2[] = {
+    "Symbola:pixelsize=12:antialias=true:autohint=true",
+};
+
 static int borderpx = 2;
 
 /*
@@ -164,6 +169,7 @@ static unsigned int mousebg = 0;
  * doesn't match the ones requested.
  */
 static unsigned int defaultattr = 11;
+
 
 /*
  * Force mouse select/shortcuts while mask is active (when MODE_MOUSE is set).
